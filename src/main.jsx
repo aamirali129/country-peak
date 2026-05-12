@@ -11,3 +11,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </React.StrictMode>
 );
+// This file is the entry point of the React application. It imports necessary modules and renders the App component wrapped in BrowserRouter for routing capabilities. The React.StrictMode is used to highlight potential problems in the application during development.
