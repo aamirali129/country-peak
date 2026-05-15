@@ -31,3 +31,36 @@ input {
   width: 300px;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .country-detail {
+    flex-direction: column;
+  }
+
+  .detail-flag {
+    width: 100%;
+  }
+
+  .countries-grid {
+    grid-template-columns: 1fr;
+  }
+}
