@@ -30,8 +30,12 @@ function Home() {
       setLoading(true);
       setError("");
 
+      const encodedSearch = encodeURIComponent(
+        search.trim()
+      );
+
       const response = await fetch(
-        `https://restcountries.com/v3.1/name/${search}`
+        `https://restcountries.com/v3.1/name/${encodedSearch}`
       );
 
       if (!response.ok) {
