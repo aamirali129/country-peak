@@ -1,5 +1,27 @@
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #111;
+  --card-bg: #fff;
+  --header-bg: #222;
+  --header-text: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --card-bg: #1f2937;
+  --header-bg: #000;
+  --header-text: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }

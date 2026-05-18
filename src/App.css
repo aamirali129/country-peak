@@ -31,3 +31,31 @@ input {
   width: 300px;
   margin-top: 10px;
 }
+
+.country-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.header {
+  background: var(--header-bg);
+  color: var(--header-text);
+}
+
+.filter-bar {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-bar select {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
